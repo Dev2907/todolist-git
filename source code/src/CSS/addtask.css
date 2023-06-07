@@ -1,0 +1,35 @@
+.addtask {
+  background-color: #1c1c1c;
+  height: 100%;
+}
+.addtaskflexContainer {
+  display: flex;
+  height: 80%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  background-color: #292929;
+  margin: 0px 10px;
+  border-radius: 5px;
+}
+.addtaskflexContainer:hover {
+  background-color: #3b3b3b;
+}
+.addtaskflexContainer > div > img {
+  width: 20px;
+  height: 20px;
+}
+.addtaskflexContainer > div {
+  margin: 0px 10px;
+}
+.addtask-input {
+  flex: 1;
+}
+.addtaskflexContainer > div > input {
+  width: 100%;
+  background-color: inherit;
+  border: none;
+  color: white;
+  outline: none;
+}

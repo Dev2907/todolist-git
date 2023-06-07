@@ -1,0 +1,249 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.infoBar-tick {
+  width: 20px;
+  height: 20px;
+}
+.infoBar-tickOff {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.infoBar-star > img {
+  width: 25px;
+  height: 25px;
+}
+.infoBar-tick > img {
+  width: 25px;
+  height: 25px;
+}
+.infoBar {
+  margin-left: auto;
+  margin-right: 0;
+  padding: 10px 10px 0px 10px;
+  background-color: #272727;
+  color: white;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.infobar-firstflex-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.infoBar-close {
+  display: flex;
+  justify-content: flex-end;
+}
+.infoBar-close > div :hover {
+  background-color: #434343;
+}
+.infoBar-close > div {
+  padding: 10px;
+}
+.infoBar-close > div > img {
+  width: 15px;
+  height: 15px;
+  margin: 0px 10px;
+}
+.addtolisticon > img:hover {
+  background-color: #434343;
+}
+.addtolisticon > div > div:hover {
+  background-color: #434343;
+}
+.addtolisticon > img {
+  width: 20px;
+  height: 20px;
+}
+.infobar-taskname > input {
+  background-color: inherit;
+  border: none;
+  color: white;
+  outline: none;
+  justify-content: center;
+}
+.infoBar-heading {
+  background-color: #323232;
+  padding: 10px;
+  border-radius: 5px;
+}
+.infoBar-heading-firstContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.infoBar-heading-first {
+  display: flex;
+  box-sizing: border-box;
+}
+.infoBar-heading-first > div {
+  margin: 5px;
+  font-size: 20px;
+}
+.infoBar-heading-second {
+  display: flex;
+  flex-direction: row;
+}
+.infoBar-heading-second > div > input {
+  background-color: inherit;
+  border: none;
+  color: white;
+  padding: 5px;
+}
+.infoBar-heading-second > div {
+  margin: 5px;
+}
+.infoBar-addMyDay {
+  display: flex;
+  background-color: #323232;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  box-sizing: border-box;
+}
+.infoBar-addMyDay:hover {
+  background-color: #434343;
+}
+.infoBar-addMyDay > div > img {
+  width: 25px;
+  height: 25px;
+}
+.infoBar-addMyDay > div {
+  margin: 5px;
+}
+.infoBar-otherDetails {
+  background-color: #323232;
+  padding: 5px;
+  border-radius: 5px;
+}
+.infoBar-otherDetails > div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.infoBar-otherDetails > div > div:hover {
+  background-color: #434343;
+}
+.infoBar-otherDetails > div > div {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.infoBar-otherDetails > div > div > div {
+  margin: 5px;
+}
+.infoBar-otherDetails > div > div > div > img {
+  width: 1vw;
+  height: 1vw;
+}
+.infoBar-otherDetails > div > div > img {
+  width: 15px;
+  height: 15px;
+}
+.infoBar-otherDetails-first {
+  flex: 1 0 0;
+}
+.infoBar-otherDetails-first {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  top: 100%;
+  left: 20;
+  width: 80%;
+  z-index: 1;
+  background-color: #212121;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  display: none;
+}
+.addtolist {
+  position: absolute;
+  font-size: 15px;
+  display: none;
+  z-index: 1;
+  background-color: #272727;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 2px solid #1b1b1b;
+  color: white;
+}
+.remindmeMenu {
+  display: block;
+}
+
+.duedateMenu {
+  display: block;
+}
+.weeklyMenu {
+  display: block;
+}
+.addtolistmenu {
+  display: block;
+}
+
+.menu > div {
+  display: flex;
+  justify-content: space-between;
+}
+.menu :hover {
+  background-color: #3d3d40;
+}
+.menu > div > div {
+  display: flex;
+  margin: 10px;
+}
+.menu > div > div > div > img {
+  width: 1vw;
+  height: 1vw;
+}
+.menu > div > div > div {
+  margin: 0 5px;
+}
+.infoBar-otherDetails-second {
+  flex: 0 0 auto;
+}
+.infoBar-note {
+  padding: 5px;
+  background-color: #323232;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+.infoBar-note > textarea {
+  background-color: inherit;
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+}
+.infoBar-footer {
+  background-color: inherit;
+  display: flex;
+  padding: 5px;
+  border-radius: 5px;
+}
+.infoBar-footer > div {
+  padding: 5px;
+}
+.infoBar-footer > div:hover {
+  background-color: #434343;
+}
+.infoBar-footer-text {
+  flex: 1 0 0;
+  text-align: center;
+}
+.infoBar-footer-image {
+  flex: 0 0 auto;
+}
+.infoBar-footer-image > img {
+  width: 25px;
+  height: 25px;
+}

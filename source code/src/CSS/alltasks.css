@@ -1,0 +1,60 @@
+.alltask {
+  padding: 40px;
+  color: white;
+}
+.alltask-heading {
+  display: flex;
+  color: #8bd3ce;
+  font-size: 25px;
+  align-items: center;
+  font-weight: bold;
+  justify-content: space-between;
+}
+.alltask-heading > div {
+  display: flex;
+}
+.alltask-heading > div > div {
+  margin-left: 10px;
+}
+.alltask-heading > div > img {
+  width: 2vw;
+  height: 2vw;
+}
+.alltask-heading > div > div > img {
+  width: 1vw;
+  height: 1vw;
+  padding: 3px;
+  border-radius: 3px;
+}
+.alltask-heading > div > div > img:hover {
+  background-color: #434343;
+}
+.alltask-parts-head {
+  background-color: #292929;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.alltaskmenu {
+  position: absolute;
+  font-size: 15px;
+  margin-top: 25px;
+  display: none;
+  z-index: 1;
+  background-color: #272727;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 2px solid #1b1b1b;
+  color: white;
+}
+.optionMenu {
+  display: block;
+}
+.alltaskmenu > div:hover {
+  background-color: #434343;
+}
+
+.optionMenu {
+}

@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7ab2b977.css",
+    "main.js": "/static/js/main.d0eb9983.js",
+    "static/js/787.97a945da.chunk.js": "/static/js/787.97a945da.chunk.js",
+    "static/media/rightSidebar-alarm.png": "/static/media/rightSidebar-alarm.7d3042e91bc0bc10c8eb.png",
+    "static/media/infobar-nextweek.png": "/static/media/infobar-nextweek.4d48a92ff7a8ce675ccc.png",
+    "static/media/1685714843126-cat.jpg": "/static/media/1685714843126-cat.680331263864fd405ac0.jpg",
+    "static/media/task-tick.png": "/static/media/task-tick.09e6a1b10869b17a9f4c.png",
+    "static/media/infobar-latertoday.png": "/static/media/infobar-latertoday.4050f055a23fa0925f2e.png",
+    "static/media/sidebar-search.png": "/static/media/sidebar-search.2c6f1843b89610a57a03.png",
+    "static/media/task-repeat.png": "/static/media/task-repeat.87ac561d9e80dfcf6196.png",
+    "static/media/sidebar-star.png": "/static/media/sidebar-star.453eed4b4b6b1a22cbc9.png",
+    "static/media/task-star.png": "/static/media/task-star.1b52004335ba77f861bc.png",
+    "static/media/sidebar-myDaySun.png": "/static/media/sidebar-myDaySun.1adf812241ae4ea8ef83.png",
+    "static/media/infobar-tomorow.png": "/static/media/infobar-tomorow.f0919d4df39d7b897b9d.png",
+    "static/media/task-star-On.png": "/static/media/task-star-On.d70edcd8dd4622c85684.png",
+    "static/media/sidebar-box.png": "/static/media/sidebar-box.acf1172d401d5697d09a.png",
+    "static/media/infobar-myDaySun.png": "/static/media/infobar-myDaySun.da2355f7c4c574087a60.png",
+    "index.html": "/index.html",
+    "main.7ab2b977.css.map": "/static/css/main.7ab2b977.css.map",
+    "main.d0eb9983.js.map": "/static/js/main.d0eb9983.js.map",
+    "787.97a945da.chunk.js.map": "/static/js/787.97a945da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ab2b977.css",
+    "static/js/main.d0eb9983.js"
+  ]
+}
